@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a,b,c;
+    cout<<"enter the three no";
+    cin>>a>>b>>c;
+    if(a>b&&b>c)
+    cout<<"greatest no is"<<a;
+    else if(b>c&&c>a)
+    cout<<"greatest no is"<<b;
+    else if(c>a&&a>b)
+    cout<<"greatest no is"<<c;
+    else
+    cout<<"invalid no";
+
+    return 0;
+}
